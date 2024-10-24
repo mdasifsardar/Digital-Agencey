@@ -1,0 +1,53 @@
+.skillArea {
+  background-color: #eff2ff;
+  padding: 70px 0;
+}
+.headingArea h2 {
+  color: #242a56;
+  font-weight: 700;
+  font-size: 45px;
+}
+.headingArea p {
+  margin-top: 25px;
+  font-size: 20px;
+  padding-bottom: 30px;
+}
+.skill-area {
+  background-color: white;
+  padding: 60px 40px;
+  margin-bottom: 20px;
+  /* margin-left: 15px; */
+  margin-right: 5px;
+  border-radius: 15px;
+}
+.fontIcon i {
+  font-size: 45px;
+  margin-bottom: 25px;
+  fill: #6878d6;
+  color: #6878d6;
+  font-weight: 100;
+}
+
+.skill-area h4 {
+  font-weight: 700;
+  margin-bottom: 23px;
+  color: #242a56;
+}
+.skill-area p {
+  font-size: 19px;
+}
+
+@media screen and (max-width: 991px) {
+  .headingArea h2 {
+    font-size: 30px;
+  }
+  .headingArea p {
+    font-size: 17px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .skill-area {
+    margin-left: 15px;
+    padding: 40px 40px;
+  }
+}

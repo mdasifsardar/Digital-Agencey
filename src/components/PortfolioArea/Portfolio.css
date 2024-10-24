@@ -1,0 +1,52 @@
+.portfolioArea {
+  background-color: #fff;
+  padding: 70px 0;
+}
+.headingText h2 {
+  font-weight: 700;
+  color: #242a56;
+  font-size: 45px;
+}
+.headingText p {
+  margin-top: 25px;
+  font-size: 20px;
+  padding-bottom: 30px;
+}
+.single {
+  width: 300px;
+  height: 300px;
+}
+.allImages {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.btn {
+  text-align: center;
+}
+.myBtn {
+  text-align: center;
+}
+.myBtn .btn {
+  min-width: 200px;
+  padding: 12px;
+  margin-top: 50px;
+  font-size: 18px;
+  background-color: #4d61d6;
+}
+
+@media screen and (max-width: 991px) {
+  .headingText h2 {
+    font-size: 30px;
+  }
+  .headingText p {
+    font-size: 17px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .allImages img {
+    width: 200px;
+    height: 200px;
+  }
+}
